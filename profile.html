@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  	body{
+		background-image : url(../IMG/loginnn.png);
+		  background-color: rgba(0,0,0,0.5);
+		height: 100vh;
+	
+		background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+	}
+  .form-group{
+    width: 100%;
+  }
+   .card{ background-color: rgba(0,0,0,0.2);
+    width: 400px;
+    height: 400px;
+  padding: 40px;
+  padding-top: 50px;
+  border: 15px black;
+  margin: 20px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-{
+  background-color: grey;
+  color:#ffffff;
+  height: 33px;
+  width: 100px;
+}
+
+
+.card-header{
+  text-align: center;
+
+}
+@media screen and (min-width: 400px) {
+  .form-group{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-group {
+    width: 60%;
+  }
+}
+.navbar-toggler{
+background-color: black;
+    border:none;
+     width: 47px;
+    height: 34px;
+  }
+  .navbar-toggler .line{
+       background-color: #fff;
+         float: left;
+          width: 100%;
+           margin-bottom: 5px;
+           height: 2px;
+       }
+
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="card-header">
+    <nav class="navbar navbar-expand-md sticky-top">
+  <a class="navbar-brand" href="#"><h2><b><strong>Zava</h2></strong></b></a><br>
+        
+ <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+   <span class="line"></span> 
+        <span class="line"></span> 
+        <span class="line" style="margin-bottom: 0;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+     <div class="navbar-nav ml-auto">
+    <form method="get" action="Design1.html">
+   <div class="navbar-nav ml-auto">
+     
+
+
+       
+  <div class="form-group row">
+
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-sm" id="colFormLabelSm"  required minlength="15" maxLength="64" width="30px" placeholder="Mail/Phone Number" pattern=".+@gmail.com"title="Please provide only a gmail mail address">
+    
+  </div>
+  </div>
+  
+    <div class="form-group row">
+        
+       <div class="col-sm-10">
+    <input type="password" id="inputPassword6" class="form-control form-control-sm" aria-describedby="passwordHelpInline" width="30px" placeholder="Password" required minlength="8" required maxlength="20">
+
+</div>
+</div>
+       <div class="form-group row">
+           
+       <div class="col-sm-10">
+          <div class="button ">
+          <button type="submit" id="button" class="btn btn-default" ><strong><h4>Submit</h4></strong></button>
+  
+    </div>
+    </div>
+    </div>
+</form></div>
+</div>
+
+
+
+</nav>
+</div>
+</div>
+    <div class="Image"></div><vr>
+
+  <div class="card ">
+    <div class="card-header">
+    <h2><b>Register Form</b></h2>
+  </div><br>
+    <form class="form-horizontal"  > 
+        <div class="form-group">
+          <div class="col-sm-10">
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." class="form-control" required>
+            </div>
+        </div>
+      
+        <div class="form-group">
+           <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="mail" required name="name" required >
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10"> 
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password"  required minlength="8" >
+            </div>
+          </div>
+          <div class="form-group" > 
+            <div class="col-sm-10">
+              <div class="button"  >
+              <button type="button" class="btn btn-default" id="button" ><strong><h4>Register</h4></strong></button>
+            </div>
+          </div>
+          </div>
+    </form>
+  </div>
+
+    </body>
+</html>
